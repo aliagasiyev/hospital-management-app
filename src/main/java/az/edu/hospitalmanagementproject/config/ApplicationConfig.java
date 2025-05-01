@@ -1,11 +1,6 @@
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by FernFlower decompiler)
-//
+package az.edu.hospitalmanagementproject.config;
 
-package az.edu.turing.hospitalmanagementapp.config;
-
-import az.edu.turing.hospitalmanagementapp.user.UserRepository;
+import az.edu.hospitalmanagementproject.repository.UserRepository;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;

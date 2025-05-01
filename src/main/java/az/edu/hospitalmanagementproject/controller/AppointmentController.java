@@ -1,17 +1,11 @@
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by FernFlower decompiler)
-//
 
-package az.edu.turing.hospitalmanagementapp.controller;
 
-import az.edu.turing.hospitalmanagementapp.dto.page.AppointmentPageResponse;
-import az.edu.turing.hospitalmanagementapp.dto.request.AppointmentRequestDto;
-import az.edu.turing.hospitalmanagementapp.dto.response.AppointmentResponseDto;
-import az.edu.turing.hospitalmanagementapp.service.AppointmentService;
+import az.edu.hospitalmanagementproject.dto.page.AppointmentPageResponse;
+import az.edu.hospitalmanagementproject.dto.request.AppointmentRequestDto;
+import az.edu.hospitalmanagementproject.dto.response.AppointmentResponseDto;
+import az.edu.hospitalmanagementproject.service.AppointmentService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PatchMapping;
