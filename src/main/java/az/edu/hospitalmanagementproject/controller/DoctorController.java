@@ -1,15 +1,12 @@
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by FernFlower decompiler)
-//
 
-package az.edu.turing.hospitalmanagementapp.controller;
 
-import az.edu.turing.hospitalmanagementapp.dto.page.DoctorPageResponse;
-import az.edu.turing.hospitalmanagementapp.dto.request.DoctorRequest;
-import az.edu.turing.hospitalmanagementapp.dto.response.DoctorResponse;
-import az.edu.turing.hospitalmanagementapp.enums.Specialization;
-import az.edu.turing.hospitalmanagementapp.service.DoctorService;
+package az.edu.hospitalmanagementproject.controller;
+
+import az.edu.hospitalmanagementproject.dto.page.DoctorPageResponse;
+import az.edu.hospitalmanagementproject.dto.request.DoctorRequest;
+import az.edu.hospitalmanagementproject.dto.response.DoctorResponse;
+import az.edu.hospitalmanagementproject.enums.Specialization;
+import az.edu.hospitalmanagementproject.service.DoctorService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.access.prepost.PreAuthorize;

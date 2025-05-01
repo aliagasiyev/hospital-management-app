@@ -3,12 +3,11 @@
 // (powered by FernFlower decompiler)
 //
 
-package az.edu.turing.hospitalmanagementapp.controller;
-
-import az.edu.turing.hospitalmanagementapp.dto.page.BedPageResponse;
-import az.edu.turing.hospitalmanagementapp.dto.request.BedRequest;
-import az.edu.turing.hospitalmanagementapp.dto.response.BedResponse;
-import az.edu.turing.hospitalmanagementapp.service.BedService;
+package az.edu.hospitalmanagementproject.controller;
+import az.edu.hospitalmanagementproject.dto.page.BedPageResponse;
+import az.edu.hospitalmanagementproject.dto.request.BedRequest;
+import az.edu.hospitalmanagementproject.dto.response.BedResponse;
+import az.edu.hospitalmanagementproject.service.BedService;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.DeleteMapping;
