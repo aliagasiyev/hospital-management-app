@@ -1,5 +1,14 @@
 # 🏥 Hospital Management System
 
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.1.2-brightgreen)
+![Java](https://img.shields.io/badge/Java-17-blue)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15.3-blue)
+![Maven](https://img.shields.io/badge/Maven-Build-yellow)
+![JWT](https://img.shields.io/badge/Security-JWT-red)
+![Lombok](https://img.shields.io/badge/Lombok-Enabled-orange)
+![MapStruct](https://img.shields.io/badge/MapStruct-Mapping-lightgrey)
+![License](https://img.shields.io/badge/License-MIT-informational)
+
 ## 📌 Project Overview
 
 **Hospital Management System** is a fully-featured Spring Boot-based backend application providing RESTful APIs to manage hospital operations such as patient records, staff, rooms, appointments, lab tests, medications, and prescriptions.
